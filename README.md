@@ -19,3 +19,6 @@ curl -X DELETE 'http://localhost:3000/api/doctors/doc-123/appointments/appt-487'
 
 ## Add appointment for a doctor
 curl -X POST http://localhost:3000/api/doctors/doc-456/appointments -d '{"patient":{"firstName":"Niki","lastName":"Khayyamian"},"startTime":"2018-05-10T09:45:00.000Z","kind":"FOLLOWUP"}' -H "Content-Type: application/json"
+
+# Acknowledgement
+Project is based on https://github.com/developit/express-es6-rest-api
