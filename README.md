@@ -14,7 +14,7 @@ curl -X GET 'http://localhost:3000/api/doctors'
 ## Get appintments for particular doctor and date
 curl -X GET 'http://localhost:3000/api/doctors/doc-123/appointments?date=2018-05-09'
 
-## Delete and appointment by id
+## Delete an appointment by id
 curl -X DELETE 'http://localhost:3000/api/doctors/doc-123/appointments/appt-487'
 
 ## Add appointment for a doctor
